@@ -1,0 +1,1 @@
+# kvalik_pyqt6
