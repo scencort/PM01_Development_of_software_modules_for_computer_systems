@@ -45,6 +45,7 @@ class LoginWindow(QDialog):  # объявление класса окна авт
 
         if not login or not password:  # проверяем, пустые ли поля логина или пароля
             QMessageBox.warning(self, "Ошибка", "Введите логин или пароль")  # показываем предупреждение об ошибке
+            return
         try:  # начинаем блок, где может произойти ошибка работы с базой
             connection = get_connection()  # создаём подключение к базе данных через вашу функцию
 
@@ -64,9 +65,8 @@ class LoginWindow(QDialog):  # объявление класса окна авт
             QMessageBox.information(self, "Успех", "Вход выполнен")  # показываем сообщение об успешной авторизации
         else:  # если пользователь не найден (zapros == none)
             QMessageBox.warning(self, "Данные не верные", "Попробуйте повторить вход, введя ещё раз логин и пароль")  # показываем ошибку неверных данных
-
-
-app = QApplication(sys.argv)
-window = LoginWindow()
-window.show()
-sys.exit(app.exec())
+            self.accept()
+# app = QApplication(sys.argv)
+# window = LoginWindow()
+# window.show()
+# sys.exit(app.exec())
