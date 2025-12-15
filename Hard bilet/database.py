@@ -12,7 +12,7 @@ class Database:
     Класс для управления базой данных SQLite.
     """
 
-    DB_NAME = "metal_cutting.db"
+    DB_NAME = "C:/Users/yaros/Desktop/PM01_Development_of_software_modules_for_computer_systems/Hard bilet/metal_cutting.db"
 
     @classmethod
     def get_connection(cls) -> sqlite3.Connection:
