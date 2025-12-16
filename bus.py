@@ -4,5 +4,3 @@ class Bus:
         self.mark = mark
         self.number = number
         self.cap = cap
-
-    
