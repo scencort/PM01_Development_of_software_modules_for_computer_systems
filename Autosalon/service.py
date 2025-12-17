@@ -73,3 +73,34 @@ class AutoSalonService:
         avg = self.avg_sale_price()
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(avg, file, ensure_ascii=False, indent=4)
+
+    def brand_share(self):
+        counts = {}
+
+        for sale in self.sales:
+            brand = self.cars[sale.car_id].brand
+
+            if brand not in counts:
+                counts[brand] = 0
+
+            counts[brand] += 1
+
+
+        total_sales = len(self.sales)
+        resultat = {}
+
+        for brand, count in counts.items():
+            percent = (count / total_sales) * 100
+            resultat[brand] = round(percent, 2)
+
+        return resultat
+
+    def save_share(self, filename):
+        brand_share = self.brand_share()
+        with open(filename, "w", encoding='utf-8') as file:
+            file.write(f"Средняя сумма сделки: {brand_share}")
+
+    def save_share_json(self, filename):
+        brand_share = self.brand_share()
+        with open(filename, "w", encoding='utf-8') as file:
+            json.dump(brand_share, file, ensure_ascii=False, indent=4)
