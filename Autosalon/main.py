@@ -9,6 +9,7 @@ def main():
     salon.load_sales("sales.txt")
 
     salon.save_avg("avg_price.txt")
+    salon.save_avg_json("avg_price.json")
 
 if __name__ == "__main__":
     main()

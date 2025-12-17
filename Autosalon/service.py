@@ -1,3 +1,5 @@
+import json
+
 from customers import Customer
 from managers import Manager
 from cars import Car
@@ -58,9 +60,16 @@ class AutoSalonService:
             total = total + sale.price
 
         avg = total / len(self.sales)
-        return avg
+        return {
+            "avg_sale_price" : avg
+        }
 
     def save_avg(self, filename):
         avg = self.avg_sale_price()
         with open(filename, "w", encoding='utf-8') as file:
             file.write(f"Средняя сумма сделки: {avg}")
+
+    def save_avg_json(self, filename):
+        avg = self.avg_sale_price()
+        with open(filename, "w", encoding='utf-8') as file:
+            json.dump(avg, file, ensure_ascii=False, indent=4)
