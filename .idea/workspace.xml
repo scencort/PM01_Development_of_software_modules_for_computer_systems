@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <workItem from="1766063955077" duration="14000" />
       <workItem from="1766063977046" duration="628000" />
       <workItem from="1766064618708" duration="725000" />
-      <workItem from="1766065360614" duration="5324000" />
+      <workItem from="1766065360614" duration="7035000" />
     </task>
     <servers />
   </component>
@@ -125,6 +124,6 @@
     <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$loader.coverage" NAME="loader Coverage Results" MODIFIED="1765791003224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$workers.coverage" NAME="workers Coverage Results" MODIFIED="1766065367781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
     <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$db_init.coverage" NAME="db_init Coverage Results" MODIFIED="1765791876243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/db" />
-    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$main.coverage" NAME="main Coverage Results" MODIFIED="1766069648927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$main.coverage" NAME="main Coverage Results" MODIFIED="1766072330447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
   </component>
 </project>
