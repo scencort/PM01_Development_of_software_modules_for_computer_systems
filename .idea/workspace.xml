@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory/brigades.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/brigades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/parts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/parts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/production.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/products.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/workers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Factory/workers.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -118,7 +113,7 @@
       <workItem from="1766063955077" duration="14000" />
       <workItem from="1766063977046" duration="628000" />
       <workItem from="1766064618708" duration="725000" />
-      <workItem from="1766065360614" duration="4389000" />
+      <workItem from="1766065360614" duration="5324000" />
     </task>
     <servers />
   </component>

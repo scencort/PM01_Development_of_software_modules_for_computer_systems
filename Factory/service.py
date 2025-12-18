@@ -85,3 +85,28 @@ class FactoryService:
 
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(no_defect_brigades, file, ensure_ascii=False, indent=4)
+
+
+    def sum_defect(self):
+        losses = {}
+
+        for product in self.productions:
+            if product.is_defect == True:
+                date = product.date
+
+                part = self.parts[product.part_id]
+                price = part.price
+
+                if date not in losses:
+                    losses[date] = 0
+
+                losses[date] += price
+
+        return losses
+
+
+    def save_sum_defect_json(self, filename):
+        sum_defect = self.sum_defect()
+
+        with open(filename, "w", encoding='utf-8') as file:
+            json.dump(sum_defect, file, ensure_ascii=False, indent=4)

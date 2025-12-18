@@ -9,6 +9,7 @@ def main():
     fs.load_productions("products.txt")
 
     fs.save_no_defect_brigades_json("no_defect_brigades_json.json")
+    fs.save_sum_defect_json("sum_defect_json.json")
 
 if __name__ == "__main__":
     main()
