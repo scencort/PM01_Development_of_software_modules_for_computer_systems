@@ -1,0 +1,14 @@
+{
+    "year": 2025,
+    "languages": [
+        "C++",
+        "Python",
+        "Go"
+    ],
+    "environments": [
+        "PostgreSQL",
+        "Qt",
+        "Unreal",
+        "Linux"
+    ]
+}
