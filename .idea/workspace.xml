@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Hotel/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/service.py" afterDir="false" />
-    </list>
+    <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +118,7 @@
       <workItem from="1766064618708" duration="725000" />
       <workItem from="1766065360614" duration="14247000" />
       <workItem from="1766150737141" duration="847000" />
-      <workItem from="1766151733509" duration="8816000" />
+      <workItem from="1766151733509" duration="9608000" />
     </task>
     <servers />
   </component>
