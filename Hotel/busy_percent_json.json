@@ -1,0 +1,14 @@
+[
+    {
+        "category": "Эконом",
+        "percent": 50.0
+    },
+    {
+        "category": "Стандарт",
+        "percent": 50.0
+    },
+    {
+        "category": "Люкс",
+        "percent": 50.0
+    }
+]

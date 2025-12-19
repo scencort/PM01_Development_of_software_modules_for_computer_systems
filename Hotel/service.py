@@ -87,3 +87,38 @@ class HotelService:
 
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(free_number, file, ensure_ascii=False, indent=4)
+
+
+    def busy_percent(self):
+        resultat = []
+
+        for category_id, category in self.categories.items():
+            total = 0
+            busy = 0
+
+            for number in self.numbers.values():
+                if number.category_id == category_id:
+                    total += 1
+
+                    for placement in self.placements:
+                        if placement.number_id == number.number_id:
+                            busy += 1
+                            break
+
+            percent = 0
+            if total > 0:
+                percent = busy / total * 100
+
+            resultat.append({
+                "category": category.name,
+                "percent": round(percent, 2)
+            })
+
+        return resultat
+
+
+    def save_busy_percent_json(self, filename):
+        busy_percent = self.busy_percent()
+
+        with open(filename, "w", encoding='utf-8') as file:
+            json.dump(busy_percent, file, ensure_ascii=False, indent=4)
