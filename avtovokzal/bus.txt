@@ -1,0 +1,2 @@
+1;Volvo;a001мр;30
+2;Mercedes-Benz;a002мр;35
