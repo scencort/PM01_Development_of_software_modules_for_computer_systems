@@ -13,7 +13,7 @@ class SpecialistWindow(QWidget):
 
         self.layout = QVBoxLayout()
 
-        #--------------------------------------------------------
+
         self.layout.addWidget(QLabel("Период (YYYY-MM-DD)"))
         self.start_date = QLineEdit()
         self.start_date.setPlaceholderText("Дата с ...")
