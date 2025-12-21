@@ -1,5 +1,5 @@
 import json
-
+from datetime import datetime, timedelta
 from database import get_connection
 
 class Mfc:
@@ -62,9 +62,6 @@ class Mfc:
         connection.close()
 
 
-    """
-    - отпечатать список типов документов в порядке убывания количества поданных заявок за период;
-    """
     def type_document_count(self, start_date, end_date):
         connection = get_connection()
         cursor = connection.cursor()
@@ -84,7 +81,6 @@ class Mfc:
                     kol_vo[type_document_id] = 0
                 kol_vo[type_document_id] += 1
 
-        print(kol_vo)
 
         resultat = sorted(
             kol_vo.items(),
@@ -104,6 +100,45 @@ class Mfc:
                 "document_type_id": type_document_id,
                 "count": count
             })
+
+        with open(filename, "w", encoding='utf-8') as file:
+            json.dump(resultat, file, ensure_ascii=False, indent=4)
+
+
+
+    def get_social_card(self, applicant_id):
+        connection = get_connection()
+        cursor = connection.cursor()
+
+        cursor.execute(
+            "SELECT date FROM application "
+            "WHERE applicant_id = ? AND type_document_id = 1 ",
+            [applicant_id]
+        )
+
+        zapros = cursor.fetchall()
+        connection.close()
+
+
+        if not zapros:
+            return None
+
+        date_str = zapros[0][0]
+        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+
+
+        ready_date = date_obj + timedelta(days=45)
+
+        return ready_date.strftime("%Y-%m-%d")
+
+
+    def save_get_social_card_json(self, applicant_id, filename):
+        date = self.get_social_card(applicant_id)
+
+        resultat = {
+            "applicant_id": applicant_id,
+            "social_card_ready_date": date
+        }
 
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(resultat, file, ensure_ascii=False, indent=4)
