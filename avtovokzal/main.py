@@ -1,8 +1,8 @@
 from avtovozkal import Avtovokzal
-
+from db.database import create_tables
 def main():
     a = Avtovokzal()
-
+    create_tables()
     a.load_bus()
     a.load_stations()
     a.load_trip()
