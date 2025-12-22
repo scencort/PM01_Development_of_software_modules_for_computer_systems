@@ -1,0 +1,12 @@
+[
+    {
+        "card_name": "Master Card",
+        "card_number": 1,
+        "client": "Поляков Ярослав Алексеевич"
+    },
+    {
+        "card_name": "Visa-electron",
+        "card_number": 3,
+        "client": "Чеха Иван Витальевич"
+    }
+]
