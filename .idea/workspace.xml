@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cards/card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/card.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/database_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/operation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/tast.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/article.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/author.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/author.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/database_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magazine/task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Specialist/not_closed_question.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +129,8 @@
       <workItem from="1766315900631" duration="27741000" />
       <workItem from="1766362165306" duration="32000" />
       <workItem from="1766362605541" duration="1237000" />
-      <workItem from="1766405908973" duration="12648000" />
+      <workItem from="1766405908973" duration="13347000" />
+      <workItem from="1766423353019" duration="306000" />
     </task>
     <servers />
   </component>
