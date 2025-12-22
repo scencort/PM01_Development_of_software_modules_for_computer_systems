@@ -40,7 +40,9 @@ class LibraryService:
                 issue = Issue(reader_id, book_id, date)
                 self.issues.append(issue)
 
-
+    """
+    – наиболее читаемого автора;
+    """
     def most_popular_author(self):
         counts = {}
 
@@ -60,7 +62,9 @@ class LibraryService:
                 "issues_count": best_count
             }
 
-
+    """
+    – выдачу книг по датам.
+    """
     def issues_by_date(self):
         counts = {}
 

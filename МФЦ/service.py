@@ -61,7 +61,9 @@ class Mfc:
         connection.commit()
         connection.close()
 
-
+    """
+    - отпечатать список типов документов в порядке убывания количества поданных заявок за период;
+    """
     def type_document_count(self, start_date, end_date):
         connection = get_connection()
         cursor = connection.cursor()
@@ -105,7 +107,9 @@ class Mfc:
             json.dump(resultat, file, ensure_ascii=False, indent=4)
 
 
-
+    """
+    - определить, когда заявитель N может получить социальную карту.
+    """
     def get_social_card(self, applicant_id):
         connection = get_connection()
         cursor = connection.cursor()

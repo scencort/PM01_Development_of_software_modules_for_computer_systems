@@ -53,7 +53,9 @@ class EquipmentService:
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(printed_equipments, file, ensure_ascii=False, indent=4)
 
-
+    """
+    - отпечатать перечень оборудования по выбранному объекту (по заявкам);
+    """
     def print_not_installed(self, check_date):
         resultat = []
 

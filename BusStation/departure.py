@@ -32,6 +32,9 @@ class Avtovokzal:
 
                 self.trips.append(Trip(int(trip_id), int(station_id), int(bus_id), time))
 
+    """
+    – сколько выполняется рейсов до каждой станции?
+    """
     def trips_station(self):
         resultat = {}
 

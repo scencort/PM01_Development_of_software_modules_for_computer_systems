@@ -63,7 +63,9 @@ class HotelService:
                 placement = Placement(placement_id, citizen_id, number_id, date_start, length_stay)
                 self.placements.append(placement)
 
-
+    """
+    – количество полностью свободных номеров, то есть тех, в которых не поселены граждане;
+    """
     def free_number(self):
         not_free_numbers = set()
 
@@ -88,7 +90,9 @@ class HotelService:
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(free_number, file, ensure_ascii=False, indent=4)
 
-
+    """
+    – сравнительную степень занятости (в процентах) номеров по категориям.
+    """
     def busy_percent(self):
         resultat = []
 

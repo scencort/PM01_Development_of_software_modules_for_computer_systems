@@ -15,7 +15,9 @@ class BKPService:
                 vkr = Vkr(direction, language, environment, year)
                 self.vkrs.append(vkr)
 
-
+    """
+    - какое направление встречается чаще всего;
+    """
     def languages_and_envs(self):
         languages = set()
         environments = set()
@@ -38,7 +40,9 @@ class BKPService:
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(lang_and_envs, file, ensure_ascii=False, indent=4)
 
-
+    """
+    - какие языки и среды появились в дипломах в 2025 г.
+    """
     def most_popular_direction(self):
         counts = {}
 

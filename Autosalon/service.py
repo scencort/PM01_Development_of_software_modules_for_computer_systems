@@ -53,6 +53,9 @@ class AutoSalonService:
                 sale = Sale(manager_id, car_id, plate, customer_id, date, price)
                 self.sales.append(sale)
 
+    """
+    – среднюю сумму сделки;
+    """
     def avg_sale_price(self):
         total = 0
 
@@ -74,6 +77,9 @@ class AutoSalonService:
         with open(filename, "w", encoding='utf-8') as file:
             json.dump(avg, file, ensure_ascii=False, indent=4)
 
+    """
+    – долю продаж автомобилей разных марок.
+    """
     def brand_share(self):
         counts = {}
 
