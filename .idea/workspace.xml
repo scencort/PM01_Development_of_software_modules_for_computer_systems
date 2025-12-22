@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Cards/card.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/card.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/database_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/operation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cards/tast.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/article.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/article.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/author.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/database_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Magazine/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Specialist/not_closed_question.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;scencort&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/scencort/PM01_Development_of_software_modules_for_computer_systems.git&quot;,
+    &quot;accountId&quot;: &quot;be789a4a-e4d8-409c-b1d1-78616453cea1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Factory/workers.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="36sL0uuhRUdb9mbS7NMqwRGcFgn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.cinema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python.departure.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.service.executor&quot;: &quot;Run&quot;,
+    &quot;Python.workers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yaros/Desktop/PM01_Development_of_software_modules_for_computer_systems&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yaros\Desktop\PM01_Development_of_software_modules_for_computer_systems\Factory" />
+      <recent name="C:\Users\yaros\Desktop\PM01_Development_of_software_modules_for_computer_systems\Python\db" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8de4f365-8033-489f-b18b-e6cdb0838ef4" name="Changes" comment="" />
+      <created>1765790112822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765790112822</updated>
+      <workItem from="1765790114602" duration="3374000" />
+      <workItem from="1765793738368" duration="4133000" />
+      <workItem from="1765799298591" duration="14000" />
+      <workItem from="1765812253404" duration="6000" />
+      <workItem from="1765879890424" duration="91000" />
+      <workItem from="1765879992565" duration="1786000" />
+      <workItem from="1765891468448" duration="25000" />
+      <workItem from="1765891500941" duration="57000" />
+      <workItem from="1765891565240" duration="74000" />
+      <workItem from="1765891645676" duration="56000" />
+      <workItem from="1765891709958" duration="215000" />
+      <workItem from="1765893058354" duration="921000" />
+      <workItem from="1765894001677" duration="473000" />
+      <workItem from="1765895241913" duration="12000" />
+      <workItem from="1765898376714" duration="128000" />
+      <workItem from="1765898513469" duration="4334000" />
+      <workItem from="1765907382743" duration="4700000" />
+      <workItem from="1766063955077" duration="14000" />
+      <workItem from="1766063977046" duration="628000" />
+      <workItem from="1766064618708" duration="725000" />
+      <workItem from="1766065360614" duration="14247000" />
+      <workItem from="1766150737141" duration="847000" />
+      <workItem from="1766151733509" duration="11693000" />
+      <workItem from="1766250939966" duration="23000" />
+      <workItem from="1766251340878" duration="675000" />
+      <workItem from="1766315900631" duration="27741000" />
+      <workItem from="1766362165306" duration="32000" />
+      <workItem from="1766362605541" duration="1237000" />
+      <workItem from="1766405908973" duration="12648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$database.coverage" NAME="database Coverage Results" MODIFIED="1765797702710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hard bilet" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$service.coverage" NAME="service Coverage Results" MODIFIED="1766412793287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cards" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$cinema.coverage" NAME="cinema Coverage Results" MODIFIED="1765900674312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cinema" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$departure.coverage" NAME="departure Coverage Results" MODIFIED="1765907429453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BusStation" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$loader.coverage" NAME="loader Coverage Results" MODIFIED="1765791003224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$workers.coverage" NAME="workers Coverage Results" MODIFIED="1766065367781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$db_init.coverage" NAME="db_init Coverage Results" MODIFIED="1765791876243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/db" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$main.coverage" NAME="main Coverage Results" MODIFIED="1766418711761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Magazine" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$database_init.coverage" NAME="database_init Coverage Results" MODIFIED="1766319578532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/МФЦ" />
+    <SUITE FILE_PATH="coverage/PM01_Development_of_software_modules_for_computer_systems$gui.coverage" NAME="gui Coverage Results" MODIFIED="1766405924030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Specialist" />
+  </component>
+</project>

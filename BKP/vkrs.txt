@@ -1,0 +1,7 @@
+Графика;C++;Qt;2025
+Базы данных;Python;Django;2024
+Графика;C++;Unreal;2025
+Сети;Go;Linux;2025
+Графика;Python;PyCharm;2023
+Базы данных;Python;PostgreSQL;2025
+Графика;C++;Qt;2024
